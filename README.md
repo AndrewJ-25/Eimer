@@ -1,11 +1,14 @@
 # Eimer
 Eimer is a wearable RP2040 devboard!
 
+![front view](images/render-front.png)
+![front view](images/render-rear.png)
+
 ## Features
 
 A multi-axis accelerometer, 8 LEDs and 8 GPIO pads make Eimer an ideal wearable device. Solder pads are accompanied by holes to run the wire through, so there is no strain on the solder joint.
 
-I designed Eimer as an introduction to get more comfortable with SMD and to learn more about MCUs.
+I designed Eimer to get more comfortable with SMD and to learn more about MCUs.
 
 The name comes from Irish mythology.
 
