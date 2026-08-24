@@ -16,6 +16,14 @@ The name comes from Irish mythology.
 
 All components can be soldered on a hotplate, except the coin cell holders which require hand-soldering.
 
+## Schematic
+
+![schematic](images/schematic.jpg)
+
+## PCB
+
+![pcb](images/pcb.png)
+
 ## BOM
 
 |Designator                                                                              |Footprint                                  |Quantity|Description|Suggested source|Total cost, £|
