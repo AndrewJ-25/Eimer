@@ -96,6 +96,7 @@
 		(property "Reference" "C12"
 			(at 2.575 -1 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d8584dd4-6dbc-4fc1-9b99-f72e030e66e1")
 			(effects
 				(font
@@ -254,6 +255,7 @@
 		(property "Reference" "R14"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c004f2e3-7e0d-4471-967a-da9d7dc3dc30")
 			(effects
 				(font
@@ -412,6 +414,7 @@
 		(property "Reference" "C2"
 			(at 2 0 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "04f6c280-c511-4cac-ac29-ae4e3524965f")
 			(effects
 				(font
@@ -570,7 +573,7 @@
 		(property "Reference" "U2"
 			(at 0 -2.4 90)
 			(layer "F.SilkS")
-			(uuid "c7f7fcb3-4015-4b31-bdeb-033e99b00445")
+			(uuid "2935859e-d21c-4b8e-af8c-9e0c9402c80d")
 			(effects
 				(font
 					(size 1 1)
@@ -581,7 +584,7 @@
 		(property "Value" "MCP1700x-330xxTT"
 			(at 0 2.4 90)
 			(layer "F.Fab")
-			(uuid "94c2dab9-15cc-40b7-91a2-43eb1da07144")
+			(uuid "3115e010-3954-42a7-bf4e-80e42abbca94")
 			(effects
 				(font
 					(size 1 1)
@@ -593,7 +596,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f13b5ec-ce76-4ca8-ae1b-690a89107279")
+			(uuid "48e496bf-8e1c-43d1-a9c0-8839909918a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +607,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9bd616ff-a71c-4efe-a786-665e99129626")
+			(uuid "6c3a80da-6d08-42d1-acc1-ea90562bd7ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -949,15 +952,16 @@
 		(at 53.02 114.55)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP2"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO12"
+			(at 2.33 -1.95 -0)
+			(layer "B.SilkS")
 			(uuid "9bbc36ad-c180-4c13-a299-05c7d877590b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -1060,7 +1064,7 @@
 		(at 75.833539 101.987612 90)
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
-		(property "Reference" "SW1"
+		(property "Reference" "run"
 			(at -3.575 0.025 0)
 			(layer "F.SilkS")
 			(uuid "78e06aaf-15fc-4d28-b5d3-0bec64ba08e2")
@@ -1320,15 +1324,16 @@
 		(at 62.47 119.95)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP12"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "3.3V"
+			(at 0 -1.648 -0)
+			(layer "B.SilkS")
 			(uuid "dafa3a3f-bf20-447a-89ef-05198a0725f0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -1434,6 +1439,7 @@
 		(property "Reference" "R6"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9751a528-4dfc-4f83-9f49-bfc662a8e813")
 			(effects
 				(font
@@ -1592,6 +1598,7 @@
 		(property "Reference" "D8"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1c4eff38-600e-46ee-a80a-b4e856875975")
 			(effects
 				(font
@@ -1790,6 +1797,7 @@
 		(property "Reference" "R10"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "526ac88e-2ca1-43be-97a5-afc6082370ef")
 			(effects
 				(font
@@ -1948,6 +1956,7 @@
 		(property "Reference" "R18"
 			(at 0.875 1.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f2990ffa-04dd-4435-80ae-3426e5978517")
 			(effects
 				(font
@@ -2106,6 +2115,7 @@
 		(property "Reference" "C5"
 			(at 0.5 1.25 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1374aeea-34c6-419c-ac2d-e72b4082f1db")
 			(effects
 				(font
@@ -2264,6 +2274,7 @@
 		(property "Reference" "C6"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bd64e484-ae2f-45b3-92ac-9c4b882a7635")
 			(effects
 				(font
@@ -2422,6 +2433,7 @@
 		(property "Reference" "R4"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "563327ee-7b16-48dc-9197-f862bcde618a")
 			(effects
 				(font
@@ -2580,6 +2592,7 @@
 		(property "Reference" "C16"
 			(at 2 -0.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "28033e02-6011-4646-b300-d7aefea0860f")
 			(effects
 				(font
@@ -2738,7 +2751,7 @@
 		(property "Reference" "U4"
 			(at 0 -1.95 0)
 			(layer "F.SilkS")
-			(uuid "aea617bb-41a4-4e88-bca4-95fb29723273")
+			(uuid "1e152a6a-c12e-4ced-b46b-72614b79cfc6")
 			(effects
 				(font
 					(size 1 1)
@@ -2749,7 +2762,7 @@
 		(property "Value" "W25Q16JVUXIQ TR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
-			(uuid "29a35f55-a34f-4593-b707-745acf3392a9")
+			(uuid "47519400-238b-4876-9525-452be9f3bf47")
 			(effects
 				(font
 					(size 1 1)
@@ -2761,7 +2774,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3d6696c-2e73-4319-a442-32d44ae40dfb")
+			(uuid "a9d8ae4c-d51a-4411-a899-6e22eda1b860")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2772,7 +2785,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f56a2a5c-cabd-472c-aa57-4cfde4121c8d")
+			(uuid "8c293d96-b09a-4bbc-9939-b5fe3e6d2c5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,6 +3108,7 @@
 		(property "Reference" "C15"
 			(at 2 0.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6a82dde4-08a2-44aa-b3a7-ea59038d7780")
 			(effects
 				(font
@@ -3253,6 +3267,7 @@
 		(property "Reference" "D2"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "80d13dd9-38bf-4c0c-a62c-51316700fd19")
 			(effects
 				(font
@@ -3451,6 +3466,7 @@
 		(property "Reference" "L1"
 			(at 0 -2.45 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "30abfd54-500b-4313-86bb-f69b75c6443c")
 			(effects
 				(font
@@ -3900,6 +3916,7 @@
 		(property "Reference" "R3"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "59db82f5-14f1-45fb-a055-953505771f49")
 			(effects
 				(font
@@ -4058,7 +4075,8 @@
 		(property "Reference" "D3"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "e1492eac-7cf8-4ed3-a744-e3384ce3bddf")
+			(hide yes)
+			(uuid "97242230-6ff3-4044-a568-048b8107c5df")
 			(effects
 				(font
 					(size 1 1)
@@ -4069,7 +4087,7 @@
 		(property "Value" "LED"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "4fef4148-7d8a-4729-9805-665fc890f30a")
+			(uuid "12e87783-6672-4c2a-af9b-1c32eab829dc")
 			(effects
 				(font
 					(size 1 1)
@@ -4081,7 +4099,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8109b64c-970f-4308-a8e1-830ee0b5b107")
+			(uuid "119bc792-7226-4c78-882e-5bb06e684063")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4092,7 +4110,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85c63222-d33c-4614-a71f-9811c8885e35")
+			(uuid "0d26c79e-6f78-4913-9719-d4ebd9ede669")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,6 +4274,7 @@
 		(property "Reference" "D5"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b1847b0e-f51b-4584-a9b9-27725bc8cc44")
 			(effects
 				(font
@@ -4454,6 +4473,7 @@
 		(property "Reference" "R17"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b3583c46-aed6-4830-aad6-8a69163e03cc")
 			(effects
 				(font
@@ -4612,6 +4632,7 @@
 		(property "Reference" "C1"
 			(at 2 0.25 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e6286fd3-5b38-4c57-8292-3c14f73518e9")
 			(effects
 				(font
@@ -4770,6 +4791,7 @@
 		(property "Reference" "R8"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3075b545-e28a-4946-ba13-9f14205f9c9f")
 			(effects
 				(font
@@ -4928,7 +4950,8 @@
 		(property "Reference" "R13"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "79944733-c40f-447b-8bf2-5692cd7e2d6e")
+			(hide yes)
+			(uuid "6adc9827-6c8d-4375-9ea0-36390fbd95bf")
 			(effects
 				(font
 					(size 1 1)
@@ -4939,7 +4962,7 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "ba8c386c-0756-4009-954d-96b823bf6b84")
+			(uuid "daf56723-edf7-46bd-bdb6-e2ff15674b08")
 			(effects
 				(font
 					(size 1 1)
@@ -4951,7 +4974,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a63803bd-c9ce-49f1-98c3-f9bb02d81d56")
+			(uuid "92128aa0-6c4e-46ca-bf35-10a0d3f93b33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4985,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b185436c-64f4-4cbd-96bb-b5634eed87bc")
+			(uuid "d065d894-37fd-4ff8-8f74-74ce79886fa8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,15 +5622,16 @@
 		(at 85.52 119.85)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP11"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "3.3V"
+			(at 0 -1.648 -0)
+			(layer "B.SilkS")
 			(uuid "29930da9-bc80-427a-b53d-e222aaf12aa1")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -5713,7 +5737,8 @@
 		(property "Reference" "D1"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "d73c8431-2ccf-4308-b507-54ae2359019c")
+			(hide yes)
+			(uuid "c984897c-eef6-4fc3-acc4-28196b5695bf")
 			(effects
 				(font
 					(size 1 1)
@@ -5724,7 +5749,7 @@
 		(property "Value" "LED"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "1cbf52ee-d9cb-4696-acb6-6e043c297ba1")
+			(uuid "2d90b023-e3e8-4c73-be8a-d78e771a724f")
 			(effects
 				(font
 					(size 1 1)
@@ -5736,7 +5761,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0991032-8374-4904-bf7a-be159df66b27")
+			(uuid "9d4eaf8a-48be-494f-a29e-98224ce1d216")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5772,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b89782ad-1eb6-45b3-84bc-6bf7a2dc2beb")
+			(uuid "a3c80a6b-0e9b-4c48-a00c-80c5ee928be8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,6 +5936,7 @@
 		(property "Reference" "C21"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f37fc0e4-68ba-4dfa-bb86-60db3bae65b2")
 			(effects
 				(font
@@ -6069,7 +6095,8 @@
 		(property "Reference" "C19"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "ba1d1110-5e95-4c49-8682-b613218ba83d")
+			(hide yes)
+			(uuid "22b32f71-8028-4007-a5b5-64b78a6552d5")
 			(effects
 				(font
 					(size 1 1)
@@ -6080,7 +6107,7 @@
 		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "49a670b8-d6ad-4b68-a337-c6826f62d0c9")
+			(uuid "25aac7b5-adf9-4614-8159-d2f47e018500")
 			(effects
 				(font
 					(size 1 1)
@@ -6092,7 +6119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bf97b07-09cf-4ad8-ad20-9feb10a65a7e")
+			(uuid "29ee26b1-cade-4a71-b6c7-229846006da7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83bcc5fe-dcd1-4336-b9c0-5c8f0438a24f")
+			(uuid "71994c5c-88b1-476d-9df3-f6c991e7873e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,6 +6254,7 @@
 		(property "Reference" "U3"
 			(at 0.1 2.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9afac195-5d5f-4255-aef6-2db9500585bc")
 			(effects
 				(font
@@ -6499,7 +6527,8 @@
 		(property "Reference" "R7"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "91ac7b0f-f388-4617-b212-5d56d749d8b9")
+			(hide yes)
+			(uuid "eadb0a2e-8b68-4851-8130-af620b1eec00")
 			(effects
 				(font
 					(size 1 1)
@@ -6510,7 +6539,7 @@
 		(property "Value" "10K"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "e085f0f0-a153-4f23-a00c-00166b5ac96c")
+			(uuid "c771cb15-b932-4fce-8dd1-e2af383524ab")
 			(effects
 				(font
 					(size 1 1)
@@ -6522,7 +6551,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dc3f3e54-ddde-4b4e-afa1-2103d62c3aca")
+			(uuid "7d34f4a0-c734-4cfe-8ba1-3fa3f9579b4f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6533,7 +6562,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5836b550-7a35-4b64-917f-1e2fe676813a")
+			(uuid "e0ea76e0-ff37-4b13-b84b-19960d8fd427")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6683,7 @@
 		(at 70.633539 102.012612 90)
 		(descr "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKRK/SKRKAHE020.html")
 		(tags "SMD SMT button")
-		(property "Reference" "SW2"
+		(property "Reference" "reset"
 			(at -3.6 -0.1 0)
 			(layer "F.SilkS")
 			(uuid "de1e4c3a-5185-4a50-ac14-f2678236b091")
@@ -6917,7 +6946,8 @@
 		(property "Reference" "D4"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
-			(uuid "4b5e7e87-bd01-4f77-b520-021e5438ba50")
+			(hide yes)
+			(uuid "68184db2-8998-4c39-8d64-396086a88ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -6928,7 +6958,7 @@
 		(property "Value" "LED"
 			(at 0 1.05 0)
 			(layer "F.Fab")
-			(uuid "12af4011-a63d-42af-b6d1-08463c78010f")
+			(uuid "9963f68f-55cc-437d-9cd9-c8a9a8d01588")
 			(effects
 				(font
 					(size 1 1)
@@ -6940,7 +6970,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c36363bc-95fe-4abc-b2b4-1562acf7604b")
+			(uuid "b0181523-7a7e-4fdf-a611-9d28597648bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +6981,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "81b79ab8-02c7-47f1-9479-6a11d57e843b")
+			(uuid "a371b14d-6afa-489e-ac5e-56603ba2074c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7115,6 +7145,7 @@
 		(property "Reference" "C9"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d3c22861-6c44-4b4b-8ec3-faeff34232b4")
 			(effects
 				(font
@@ -7273,6 +7304,7 @@
 		(property "Reference" "C4"
 			(at 2 -0.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "2720a65f-1519-483b-b5ca-062539b769bb")
 			(effects
 				(font
@@ -7428,15 +7460,16 @@
 		(at 59.12 118.5)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP4"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO15"
+			(at 1.555 -1.975 -0)
+			(layer "B.SilkS")
 			(uuid "6f382783-8cc9-4b72-8845-3beeb28bc15b")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -7542,6 +7575,7 @@
 		(property "Reference" "R9"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d149e618-bd34-49c5-b03c-fc1051e7f379")
 			(effects
 				(font
@@ -7700,6 +7734,7 @@
 		(property "Reference" "D7"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "03e513db-8e6c-4f0c-8b67-81350aeeec1c")
 			(effects
 				(font
@@ -7898,7 +7933,8 @@
 		(property "Reference" "R12"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
-			(uuid "0a32e9ae-8110-40da-881f-de221f6ef363")
+			(hide yes)
+			(uuid "902945b8-18bd-4186-a2c4-a79c1efea002")
 			(effects
 				(font
 					(size 1 1)
@@ -7909,7 +7945,7 @@
 		(property "Value" "1k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
-			(uuid "2846a57c-be7f-4194-a7ab-5ff8ba60e646")
+			(uuid "48f16804-bd81-42d6-85af-7d2f11bb97d0")
 			(effects
 				(font
 					(size 1 1)
@@ -7921,7 +7957,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3ee7151-e78b-44d1-b117-8031323fa5c5")
+			(uuid "11647c4a-f25d-4d44-ac39-21192403df55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7968,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea4a8df7-c408-4254-be37-0262cf1429ca")
+			(uuid "786d40b0-e58d-4ed3-97ec-77c27e56c97f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8056,6 +8092,7 @@
 		(property "Reference" "C10"
 			(at 2.25 -0.25 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "76c08f0e-897b-4f3f-a2c2-0fd29931b823")
 			(effects
 				(font
@@ -8214,6 +8251,7 @@
 		(property "Reference" "C11"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "60155505-a10d-4889-bb2b-6c119edcd930")
 			(effects
 				(font
@@ -8369,15 +8407,16 @@
 		(at 91.82 116.8)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP6"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO19"
+			(at -1.62 -2.325 -0)
+			(layer "B.SilkS")
 			(uuid "0adbcbb3-10d5-4be3-8338-0fa986bc0599")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -8480,15 +8519,16 @@
 		(at 94.82 114.5)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP7"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO20"
+			(at -1.92 -1.875 -0)
+			(layer "B.SilkS")
 			(uuid "bbcffd07-f68d-4692-bb7d-fb76aa04ff93")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -9023,7 +9063,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO0-Pad2)")
 			(pinfunction "GPIO0_2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "2c23e473-dc94-490a-9786-dfca38b09930")
 		)
 		(pad "3" smd roundrect
@@ -9053,7 +9093,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO3-Pad5)")
 			(pinfunction "GPIO3_5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a52c4f78-7810-4916-8d32-786be0ca00ee")
 		)
 		(pad "6" smd roundrect
@@ -9173,7 +9213,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO14-Pad17)")
 			(pinfunction "GPIO14_17")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f5bf3a04-7825-4e60-8cd2-1c13cf4abac5")
 		)
 		(pad "18" smd roundrect
@@ -9273,7 +9313,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO16-Pad27)")
 			(pinfunction "GPIO16_27")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c4c78cb0-23cf-4220-bab4-384aaad245f2")
 		)
 		(pad "28" smd roundrect
@@ -9283,7 +9323,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO17-Pad28)")
 			(pinfunction "GPIO17_28")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "7a808eaf-c22e-40a0-bb69-f6f5fc6f5230")
 		)
 		(pad "29" smd roundrect
@@ -9343,7 +9383,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO22-Pad34)")
 			(pinfunction "GPIO22_34")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "835b5615-aa1e-4e7f-84b9-fc71a5986fcb")
 		)
 		(pad "35" smd roundrect
@@ -9353,7 +9393,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO23-Pad35)")
 			(pinfunction "GPIO23_35")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "034894e5-ee6d-4488-bb3a-c88cf8683c04")
 		)
 		(pad "36" smd roundrect
@@ -9363,7 +9403,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO24-Pad36)")
 			(pinfunction "GPIO24_36")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "72e4fbbb-bf62-430b-9c54-ddba843afd31")
 		)
 		(pad "37" smd roundrect
@@ -9373,7 +9413,7 @@
 			(roundrect_rratio 0.25)
 			(net "unconnected-(U1-GPIO25-Pad37)")
 			(pinfunction "GPIO25_37")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e6381ace-7f12-47e0-b00f-60f5f1b70071")
 		)
 		(pad "38" smd roundrect
@@ -9596,15 +9636,16 @@
 		(at 82.145 120.95)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP9"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GND"
+			(at 0 -1.648 -0)
+			(layer "B.SilkS")
 			(uuid "0248fb61-4d06-41b3-88c6-79cb7ab9b348")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -9710,6 +9751,7 @@
 		(property "Reference" "R5"
 			(at 2.35 -0.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "acd652c3-0def-42f7-88dd-15f7fe4ea686")
 			(effects
 				(font
@@ -9868,7 +9910,8 @@
 		(property "Reference" "R2"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "5d975745-c8fc-4974-8730-a8096baf2886")
+			(hide yes)
+			(uuid "52c11f98-e529-4ed6-a45d-351e51f6f956")
 			(effects
 				(font
 					(size 1 1)
@@ -9879,7 +9922,7 @@
 		(property "Value" "5.1K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "3e75f5e8-f208-464e-b2e5-bc1c22f294fd")
+			(uuid "deb31c31-e58b-42ca-9a3b-8795cdb3ac2a")
 			(effects
 				(font
 					(size 1 1)
@@ -9891,7 +9934,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "722a59a8-ca5f-4e18-acae-19f2fc8c58e0")
+			(uuid "9b5db2b5-9e58-4f6d-ac85-344e8495c6bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9902,7 +9945,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6a4c278-de39-48a7-877b-b65b4f5a1ddf")
+			(uuid "d87eb0fd-63cd-4209-aa3f-e71ac76bcdd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10023,15 +10066,16 @@
 		(at 50.545 112.2)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP1"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO11"
+			(at 1.53 -1.95 -0)
+			(layer "B.SilkS")
 			(uuid "4a93dce8-3222-4d5a-8ce4-6605712381e5")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -10137,7 +10181,7 @@
 		(property "Reference" "J4"
 			(at 0 -5.645 0)
 			(layer "F.SilkS")
-			(uuid "d43098a0-9a29-4fd6-8848-1507f55a2bfb")
+			(uuid "b28829e5-6d87-4a48-aa94-583cf26500a3")
 			(effects
 				(font
 					(size 1 1)
@@ -10148,7 +10192,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
 			(at 0 5.1 0)
 			(layer "F.Fab")
-			(uuid "bda1223a-2af1-4155-8c18-072a7dd57260")
+			(uuid "350140ac-03c7-4dfe-a376-9a384d84ac3c")
 			(effects
 				(font
 					(size 1 1)
@@ -10161,7 +10205,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c8d48cc-36af-43e8-87c7-9006a5067ab3")
+			(uuid "6380dc2d-c593-4b9b-a425-697615eb97f6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10218,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52fe38ce-4bf7-4447-8016-93e5b95eede4")
+			(uuid "dc23acd1-1a2a-4a27-a10b-ec226f40d3f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10619,8 @@
 		(property "Reference" "C13"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "5d57ca5d-c3ae-4c8f-b85d-1ebd41039538")
+			(hide yes)
+			(uuid "366eb08b-ea19-49d8-8707-7f69a5b05381")
 			(effects
 				(font
 					(size 1 1)
@@ -10586,7 +10631,7 @@
 		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "b634ab3c-f6d4-4421-92c8-52f0325a0639")
+			(uuid "41483e74-d582-43d3-884b-b69a420e29ba")
 			(effects
 				(font
 					(size 1 1)
@@ -10598,7 +10643,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f4dc988-4673-40c7-9379-d7f4d0c74d86")
+			(uuid "dae5629c-fe16-4517-b747-9117d73725ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10609,7 +10654,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18cf0bdc-fa6b-4158-99c1-adf832941430")
+			(uuid "cf10b1d3-489a-4560-8b2a-cca335b9c944")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10733,7 +10778,8 @@
 		(property "Reference" "C17"
 			(at -0.825 1.275 0)
 			(layer "F.SilkS")
-			(uuid "b1a43408-4f7e-487b-a665-c427a7f6930a")
+			(hide yes)
+			(uuid "bf169750-1575-419f-94d7-425bd7b2ef49")
 			(effects
 				(font
 					(size 1 1)
@@ -10744,7 +10790,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "9d5fdedd-d57d-4d36-93fa-8d5a2e17f340")
+			(uuid "006f3a47-a98c-4bab-ad1f-367da801528d")
 			(effects
 				(font
 					(size 1 1)
@@ -10756,7 +10802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f68bbdc1-5c5c-4dac-b0b2-db8685a477d0")
+			(uuid "b197d987-09fc-4df5-8b05-0d022e42bae6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10813,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcaf7504-acdb-458d-aaa6-acd80accff53")
+			(uuid "16268159-2c62-4c1d-a147-3f5a86495caa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,6 +10937,7 @@
 		(property "Reference" "D6"
 			(at 0 -1.05 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "80017cfa-71f2-42dc-8f5e-7b165bc09178")
 			(effects
 				(font
@@ -11086,15 +11133,16 @@
 		(at 55.97 116.675)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP3"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO13"
+			(at 1.73 -1.925 -0)
+			(layer "B.SilkS")
 			(uuid "06294faa-4a43-4554-9325-b2dd4843bf61")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -11200,6 +11248,7 @@
 		(property "Reference" "C7"
 			(at 2 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "044ce20c-c86e-4445-8cb0-1c3cec19c70a")
 			(effects
 				(font
@@ -11358,7 +11407,8 @@
 		(property "Reference" "C14"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "459b1fb5-0784-4c84-972e-9aa44d0a57c1")
+			(hide yes)
+			(uuid "7867c5fe-47c4-4de2-9c40-3dbaf116b37a")
 			(effects
 				(font
 					(size 1 1)
@@ -11369,7 +11419,7 @@
 		(property "Value" "10uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "02ef9228-311a-4c79-9c49-a74d67018c6f")
+			(uuid "9de1d601-dd65-4d21-bb46-f2feeeac55a0")
 			(effects
 				(font
 					(size 1 1)
@@ -11381,7 +11431,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8c21d68-49ce-4c1b-b7b7-be298882e372")
+			(uuid "47867058-9e81-424c-8c3d-71d9fb77c6f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11392,7 +11442,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "571f2e45-32d4-4641-b659-45f56771d245")
+			(uuid "6ddba867-42ba-45b6-80ad-581f49cf2ff2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,15 +11563,16 @@
 		(at 88.845 118.4)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP5"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO18"
+			(at -1.47 -2 -0)
+			(layer "B.SilkS")
 			(uuid "0f3f7964-90af-4252-a177-460460e4cb43")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -11627,7 +11678,8 @@
 		(property "Reference" "R1"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "91eaf613-a104-4178-a672-92089882d91e")
+			(hide yes)
+			(uuid "f51aeb59-318f-4f6a-a8c0-1d4928c66592")
 			(effects
 				(font
 					(size 1 1)
@@ -11638,7 +11690,7 @@
 		(property "Value" "5.1K"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "534e5614-f78b-4860-9124-4abc1036a539")
+			(uuid "4491397f-0538-4ba9-bce7-e4e9c9e1def8")
 			(effects
 				(font
 					(size 1 1)
@@ -11650,7 +11702,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ad72f1c-1cac-48c3-9c5b-9f3fb413f94e")
+			(uuid "7b55d36b-d11a-4bea-b400-fd696f004584")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11661,7 +11713,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc41d505-c07a-4860-aa7f-013d460077dc")
+			(uuid "caa9ceb3-f995-4a1e-a7f9-9522eeeb1f0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11785,6 +11837,7 @@
 		(property "Reference" "C8"
 			(at 0.92 -1.075 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "50b8683c-fc36-4ad5-840c-ca75a2d04340")
 			(effects
 				(font
@@ -11943,6 +11996,7 @@
 		(property "Reference" "R16"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7dc03517-0c4f-4852-8b52-d07ee77c6120")
 			(effects
 				(font
@@ -12101,6 +12155,7 @@
 		(property "Reference" "R11"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3c3ec8a0-02fb-486e-93bf-6b965a33962d")
 			(effects
 				(font
@@ -12259,6 +12314,7 @@
 		(property "Reference" "C20"
 			(at -0.025 -1.35 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c78b55b5-36db-48bf-b40d-06ca75ebc169")
 			(effects
 				(font
@@ -12414,15 +12470,17 @@
 		(at 97.295 112.275)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP8"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GPIO21"
+			(at -3.545 -1.4 -0)
+			(layer "B.SilkS")
+			(hide yes)
 			(uuid "1f72dc63-da92-40de-8ba5-29ce811ab8cb")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12528,6 +12586,7 @@
 		(property "Reference" "R15"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e0e9dcfe-a7f4-4f53-9c43-69617b0d63f3")
 			(effects
 				(font
@@ -12686,6 +12745,7 @@
 		(property "Reference" "C3"
 			(at 1.98 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "543e9539-e17f-4467-8bc3-09ce2c9e1bd0")
 			(effects
 				(font
@@ -12841,15 +12901,16 @@
 		(at 65.82 120.975)
 		(descr "THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP10"
-			(at 0 -1.648 0)
-			(layer "F.SilkS")
+		(property "Reference" "GND"
+			(at 0 -1.648 -0)
+			(layer "B.SilkS")
 			(uuid "a5e675c4-1a13-4245-bae7-b0a14d233450")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "TestPoint"
@@ -12955,7 +13016,7 @@
 		(property "Reference" "BT2"
 			(at 0 -11.5 90)
 			(layer "B.SilkS")
-			(uuid "3d99e0ef-4141-4a41-ad19-e712ce23df0b")
+			(uuid "c8db586e-d201-4ddb-99ab-3311e1d3a272")
 			(effects
 				(font
 					(size 1 1)
@@ -12967,7 +13028,7 @@
 		(property "Value" "Battery_Cell"
 			(at 0 10.6 90)
 			(layer "B.Fab")
-			(uuid "7cad3d49-66b6-4a18-9ebc-1b009a07e555")
+			(uuid "e631661a-690e-4a96-b9ab-cd5927884bd9")
 			(effects
 				(font
 					(size 1 1)
@@ -12981,7 +13042,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c940c0ad-a31f-48fc-9d63-c6f7df870c57")
+			(uuid "e659a582-6e16-4d47-b521-dc9a3ed19f99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12995,7 +13056,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5340bbbe-5477-490d-a55c-966a5c5ce51d")
+			(uuid "346de1fd-bf30-4aec-84d7-f9a879eaca03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15229,6 +15290,16 @@
 		(layer "Edge.Cuts")
 		(uuid "991db73e-e749-4caa-b5b3-a8c52b3c7866")
 	)
+	(gr_line
+		(start 100 60.1)
+		(end 47.778586 59.984157)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8cedf7bb-fc1f-4b31-9aaa-78eab2fd69e7")
+	)
 	(gr_arc
 		(start 100 60.1)
 		(mid 73.738464 128.034983)
@@ -15239,16 +15310,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "5b626207-73bb-4e4e-bcc8-cd62249a0f61")
-	)
-	(gr_line
-		(start 100 60.1)
-		(end 47.8465 60.059871)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "8cedf7bb-fc1f-4b31-9aaa-78eab2fd69e7")
 	)
 	(gr_circle
 		(center 100.025 114.7)
