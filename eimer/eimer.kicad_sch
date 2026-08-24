@@ -7933,6 +7933,30 @@
 			)
 		)
 	)
+	(global_label "GPIO11"
+		(shape bidirectional)
+		(at 254 207.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fad8548-1027-4d31-b7ac-2a1a97197f22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.9908 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape bidirectional)
 		(at 207.645 59.055 0)
@@ -8098,6 +8122,54 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO15"
+		(shape bidirectional)
+		(at 254 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29437691-43e5-411c-87e1-32729113faba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.9908 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO11"
+		(shape bidirectional)
+		(at 104.775 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ccff042-80e0-4cde-895f-89c34ddf4143")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.7658 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -8341,6 +8413,30 @@
 			)
 		)
 	)
+	(global_label "GPIO12"
+		(shape bidirectional)
+		(at 104.775 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a4b586a-5738-41d1-ace4-f4f175fbee89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.7658 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 189.23 201.93 180)
@@ -8557,6 +8653,54 @@
 			)
 		)
 	)
+	(global_label "GPIO15"
+		(shape bidirectional)
+		(at 104.775 201.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "900ed351-11cb-4191-92a1-94904f772f99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.7658 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape bidirectional)
+		(at 254 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "965e4b98-1911-47b0-bd67-1c10aae3bbfc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.9908 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape bidirectional)
 		(at 189.23 204.47 180)
@@ -8594,6 +8738,30 @@
 		(uuid "a34672d1-5caf-4dc7-a3cb-8c4f98af74e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.4844 240.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape bidirectional)
+		(at 104.775 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4b8c198-0375-4979-936c-f7213914294d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.7658 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8786,6 +8954,30 @@
 		(uuid "cd4a6829-f6bd-4de7-b88b-d61b9e35837f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.995 191.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape bidirectional)
+		(at 254 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ced60149-65bb-4bdc-86bf-31ee1096210d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.9908 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
