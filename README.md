@@ -4,13 +4,17 @@ Eimer is a wearable RP2040 devboard!
 ![front view](images/render-front.png)
 ![front view](images/render-rear.png)
 
-## Features
+## Description and Features
 
 A multi-axis accelerometer, 8 LEDs and 8 GPIO pads make Eimer an ideal wearable device. Solder pads are accompanied by holes to run the wire through, so there is no strain on the solder joint.
 
-I designed Eimer to get more comfortable with SMD and to learn more about MCUs.
+Eimer can be programmed using Arduino framework. Two mounting holes can be attached to a lanyard necklace, or safety pins.
 
-The name comes from Irish mythology.
+Eimer can be powered with USB C or two CR2032 button cells (the board will work with one button cell, with a shorter battery life). Important note: do not plug in USB while cells are inserted!
+
+I designed Eimer to get more comfortable with SMD and to learn more about MCUs. I started this project by following a tutorial posted in Hackclub Macondo before customising it.
+
+The name comes from Irish mythology:)
 
 ## Assembly
 
